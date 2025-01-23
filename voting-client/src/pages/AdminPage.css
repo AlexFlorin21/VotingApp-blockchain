@@ -1,0 +1,96 @@
+/* AdminPage.css */
+
+body, html, #root {
+    height: 100%;
+    margin: 0;
+    font-family: "Arial", sans-serif;
+  }
+  
+  .admin-container {
+   
+    background: url("/background.jpg") no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 50px;
+  }
+  
+  
+  .admin-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  }
+  
+ 
+  .admin-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  
+  .admin-section {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+ 
+  .admin-input,
+  .admin-textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+ 
+  .admin-textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+
+  .admin-button {
+    background-color: #ff8800;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .admin-button:hover {
+    background-color: #ff5500;
+    transform: translateY(-3px);
+  }
+  
+  .admin-button:active {
+    transform: translateY(1px);
+  }
+  .start-election-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .start-election-button:hover {
+    background-color: #0056b3;
+  }

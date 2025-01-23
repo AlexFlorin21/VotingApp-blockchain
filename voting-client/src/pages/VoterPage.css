@@ -1,0 +1,51 @@
+.voter-container {
+  padding: 20px;
+  text-align: center;
+  color: #333;
+  background: url("/background.jpg") no-repeat center center/cover;
+  min-height: 100vh;
+}
+
+.voter-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.candidate-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.candidate-item {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 15px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  text-align: left;
+}
+
+.candidate-item p {
+  margin: 5px 0;
+  font-size: 1rem;
+}
+
+.vote-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.vote-button:hover {
+  background-color: #45a049;
+  transform: translateY(-2px);
+}

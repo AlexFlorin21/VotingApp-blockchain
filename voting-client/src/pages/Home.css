@@ -1,0 +1,61 @@
+/* voting-client/src/Home.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.home-container {
+
+  background: url("/background.jpg") no-repeat center center / cover;
+
+
+  width: 100%;
+  height: 100vh;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+  text-align: center; 
+}
+
+
+.home-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+.home-subtitle {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.7);
+}
+.connect-btn {
+  padding: 1rem 2rem;
+  background-color: #ff8800;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.connect-btn:hover {
+  background-color: #ff5500;
+  transform: translateY(-2px);
+}
+.connect-btn:active {
+  transform: translateY(1px);
+}
